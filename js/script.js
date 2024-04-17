@@ -17,5 +17,5 @@ function calculateFahrenheitToCelsius() {
   const fahrenheitToCelsius = (fahrenheitOfTemperature - 32) * 5/9
 
   // output
-  document.getElementById('celsius').innerHTML = 'Celsius is: ' + fahrenheitToCelsius.toFixed(3) + '°C'
+  document.getElementById('celsius').innerHTML = 'Celsius is: ' + fahrenheitToCelsius.toFixed(3) + ' °C'
 }
